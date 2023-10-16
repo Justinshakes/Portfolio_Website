@@ -81,22 +81,20 @@ img {
     width: 100%;
 }
 
-/* Styles for the navigation bar */
 .nav {
     display: flex;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
-    /*left: 0;*/
     width: 100%;
     background: var(--main-light-blue);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
 .nav-list {
+    width: 100%;
     display: flex;
     margin-right: 2rem;
+    justify-content: flex-end;
 }
 
 .nav-list a {
@@ -107,6 +105,13 @@ img {
 
 .nav-list a:hover {
     background: var(--main-medium-blue);
+}
+
+@media (max-width: 500px) {
+    .nav-list {
+        justify-content: center;
+        margin: 0 1rem;
+    }
 }
 
 /* Media query for screens with a max width of 460px */
