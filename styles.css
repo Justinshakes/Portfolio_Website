@@ -62,7 +62,6 @@ body {
 
 /* Styles for h1 and h2 headers */
 h1, h2 {
-    /*font-family: Arial sans-serif;*/ /* This line is commented out */
     font-weight: 700;
     text-align: center;
 }
