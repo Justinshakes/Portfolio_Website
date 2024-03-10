@@ -255,6 +255,10 @@ section {
     position: relative;
 }
 
+.about-containers, .about-details-container {
+    display: flex;
+}
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -264,10 +268,6 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
-}
-
-.about-containers, .about-details-container {
-    display: flex;
 }
 
 .about-pic {
@@ -293,12 +293,6 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
-    margin: auto 0;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
     margin: auto 0;
 }
 

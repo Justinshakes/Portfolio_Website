@@ -264,6 +264,52 @@ section {
 
 /* ABOUT SECTION */
 
+#about {
+    position: relative;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+/*When you apply flex: 1; to an item inside a flex container,
+it will essentially try to match the size of other items within the same container.
+If there's extra space available, it will expand to fill it proportionally along with other flex items.
+And if there's not enough space, it will shrink to accommodate the other items while maintaining its
+relative size. So, it helps in creating a layout where items share available space evenly.*/
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+    margin: auto 0;
+}
+
+/* EXPERIENCE */
+
 
 
 
