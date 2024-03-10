@@ -197,21 +197,19 @@ section {
     gap: 1rem;
 }
 
-/* ICON */
-
-.icon {
-    height: 2rem;
-}
-
 #socials-container .icon {
     cursor: pointer;
 }
 
-
-
 #socials-container .icon:hover {
     transition: transform 0.5s ease;
     transform: translateY(-3px);
+}
+
+/* ICON */
+
+.icon {
+    height: 2rem;
 }
 
 /* BUTTONS */
