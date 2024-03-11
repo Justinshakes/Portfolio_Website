@@ -32,15 +32,13 @@
             <span></span>
         </div>
         <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">AboutHam</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
 </nav>
-
-
 <section id="profile">
     <div class="section__pic-container">
         <img id="profile-picture" src="./assets/profile-pic.jpg" alt="Picture of Justin Sherrell">
@@ -58,11 +56,8 @@
             </button>
         </div>
         <div id="socials-container">
-            <img src="/assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-                 onclick="window.open('https://www.linkedin.com/in/justin-sherrell-link/', '_blank')">
-            <img src="/assets/github.png" alt="My GitHub profile" class="icon"
-                 onclick="window.open('https://github.com/Justinshakes', '_blank')">
-
+            <img src="/assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/justin-sherrell-link/', '_blank')">
+            <img src="/assets/github.png" alt="My GitHub profile" class="icon" onclick="window.open('https://github.com/Justinshakes', '_blank')">
         </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow pointing down" class="icon arrow" onclick="location.href='./#about'">
@@ -77,12 +72,12 @@
         <div class="about-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <img src="./assets/education.png" alt="Education icon" class="icon">
+                    <img src="./assets/experience.png" alt="Experience icon" class="icon">
                     <h3>Experience</h3>
                     <p>2+ years <br>In a mix of Coding in languages like Java, JavaScript, HTML, CSS, Python and C++</p>
                 </div>
                 <div class="details-container">
-                    <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                    <img src="./assets/education.png" alt="Education icon" class="icon">
                     <h3>Education</h3>
                     <p>B.Sc. Bachelors Degree (In-Progress)<br>Major: Computing Science</p>
                 </div>
@@ -98,7 +93,6 @@
         </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow pointing down" class="icon arrow" onclick="location.href='./#experience'">
-
 </section>
 <section id="experience">
     <p class="section__text__p1">Explore My</p>
@@ -190,6 +184,7 @@
                             <p>Basic</p>
                         </div>
                     </article>
+
                 </div>
             </div>
         </div>
@@ -197,7 +192,7 @@
     <img src="./assets/arrow.png" alt="Arrow pointing down" class="icon arrow" onclick="location.href='./#projects'">
 </section>
 <section id="projects">
-   <p class="section__text__p1">Browse My Recent</p>
+    <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
         <div class="about-containers">
@@ -205,21 +200,23 @@
                 <div class="article-container">
                     <img src="assets/project-1.png" class="project-img project-img-1" alt="Project 1">
                 </div>
-                <h2 class="experience-sub-title project-title">Archery Tournament Simulator (C++)</h2>
+                <h2 class="experience-sub-title project-title">Archery Tournament Simulator (C++)
+                </h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Justinshakes/Archery-Sim', '_blank')">
                         GitHub
                     </button>
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://youtu.be/n7kzHS3d5po\', \'_blank')">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://youtu.be/n7kzHS3d5po', '_blank')">
                         Live Demo
                     </button>
+
                 </div>
             </div>
             <div class="details-container color-container">
                 <div class="article-container">
                     <img src="./assets/project-2.png" class="project-img" alt="Project 2">
                 </div>
-                <h2 class="experience-sub-title">JFrame Calculator (Java)</h2>
+                <h2 class="experience-sub-title project-title">JFrame Calculator (Java)</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Justinshakes/Calculator_Java', '_blank')">
                         GitHub
@@ -246,11 +243,39 @@
         </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow pointing down" class="icon arrow" onclick="location.href='./#contact'">
-</section>
-<section id="contact"></section>
-<footer>
 
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:JustinSherrell4@gmail.com
+">JustinSherrell4@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="Email icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/justin-sherrell-link/" target="_blank">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169 2024 Justin Sherrell. All Right Reserved.</p>
 </footer>
+
+
 <script src="script.js"></script>
 </body>
+
 </html>

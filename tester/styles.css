@@ -230,7 +230,7 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    align-items: flex-end;
 }
 
 .btn {
@@ -363,6 +363,7 @@ article {
 .project-title {
     margin: 1rem;
     color: black;
+    text-align: center;
 }
 
 .project-btn {
