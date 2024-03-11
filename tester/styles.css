@@ -212,25 +212,12 @@ section {
     height: 2rem;
 }
 
-/* ARROW */
-
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-    cursor: pointer;
-}
-
-#socials-container .icon {
-    cursor: pointer;
-}
-
-/*  BUTTONS */
+/* BUTTONS */
 
 .btn-container {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    gap: 1rem;
 }
 
 .btn {
@@ -268,8 +255,7 @@ section {
     position: relative;
 }
 
-.about-containers,
-.about-details-container {
+.about-containers, .about-details-container {
     display: flex;
 }
 
@@ -288,18 +274,20 @@ section {
     border-radius: 2rem;
 }
 
-/*When you apply flex: 1; to an item inside a flex container,
-it will essentially try to match the size of other items within the same container.
-If there's extra space available, it will expand to fill it proportionally along with other flex items.
-And if there's not enough space, it will shrink to accommodate the other items while maintaining its
-relative size. So, it helps in creating a layout where items share available space evenly.*/
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+}
 
 .details-container {
     padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: rgb(53,53,53) 0.1rem solid;
+    /*border-color: rgb(163, 163, 163);*/
 }
 
 .section-container {
@@ -376,11 +364,63 @@ article {
     max-width: 600px;
 }
 
+.details-container-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+}
 
+/* Contact */
 
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
 
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
 
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
 
+.contact-info-container p {
+    font-size: larger;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
 
 
 

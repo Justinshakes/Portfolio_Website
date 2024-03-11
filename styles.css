@@ -364,6 +364,18 @@ article {
     max-width: 600px;
 }
 
+.details-container-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+}
+
 /* Contact */
 
 #contact {
