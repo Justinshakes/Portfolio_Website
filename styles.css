@@ -73,6 +73,7 @@ a:hover {
 .hamburger-menu {
     position: relative;
     display: inline-block;
+    z-index: 9999;
 }
 
 .hamburger-icon {
@@ -118,6 +119,7 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+    border-radius: 10%;
 }
 
 .hamburger-icon.open span:first-child {
